@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stack</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+  <!-- section-1 -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./images/logo-light.png" alt="" class="img-fluid" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Homes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Portfolio
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Blocks
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Elements
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-grid gap-3 d-md-flex justify-content-md-end">
+            <button class="btn btn-outline-secondary" me-md-2 type="button">
+              Try Builder
+            </button>
+            <button class="btn btn-primary" type="button">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner -->
+    <section class="banner">
+      <section class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Holistic Education for Tomorrow's Leaders</h1>
+            <p>
+              Stack offers a clean and contemporary look to suit a range of
+              purposes from corporate, tech startup, marketing site to digital
+              storefront.
+            </p>
+            <div class="banner-icon">
+              <a href="#"><i class="fa-regular fa-circle-play"></i></a>
+              <label>2016 Alumni Wrapup <span>104 Seconds</span> </label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </header>
+
+  <!-- section-2 -->
+  <section class="approach">
+    <section class="container">
+      <div class="row align-items-center row justify-content-around">
+        <div class="col-lg-6 col-md-6">
+          <div class="approach-content">
+            <h2>A unique approach to learning for tertiary education</h2>
+            <p>
+              Launching an attractive and scalable website quickly and
+              affordably is important for modern startups — Stack offers
+              massive value without looking 'bargain-bin'.
+            </p>
+            <a href="#">Learn More »</a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <img src="./images/education-2.jpg" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- section-3 -->
+  <section class="course text-center">
+    <section class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+          <h2>Find your course, and your calling.</h2>
+          <p>
+            Our vision is for strong and resilient students where all have
+            adequate access to the support structures required to succeed.
+            Browse courses below to find out more.
+          </p>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- section-4 -->
+  <section class="keywords">
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <form class="row g-3">
+            <div class="col-lg-6 col-md-6">
+              <input type="text" name="keywords" placeholder="keywords" />
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select An Option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+            </div>
+            <div class="col-lg-2 col-md-2">
+              <button type="submit" class="btn btn-primary mb-3">
+                Search
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- section-6 -->
+  <section class="feature">
+    <section class="container">
+      <div class="row boxed boxed--border">
+        <div class="col-lg-4  col-md-4">
+          <div class="feature-box">
+            <h5>Mechanical Engineering</h5>
+            <p>Following BEM conventions for readability</p>
+            <a href="#">Learn More </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="feature-box">
+            <h5>Media & Communications</h5>
+            <p>Following BEM conventions for readability</p>
+            <a href="#">Learn More </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="feature-box">
+            <h5>Biomedical Engineering</h5>
+            <p>Following BEM conventions for readability</p>
+            <a href="#">Learn More </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="feature-box">
+            <h5>Psychological Sciences</h5>
+            <p>Following BEM conventions for readability</p>
+            <a href="#">Learn More </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="feature-box">
+            <h5>Masters of Teaching</h5>
+            <p>Following BEM conventions for readability</p>
+            <a href="#">Learn More </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="feature-box">
+            <h5>Masters of Psychology</h5>
+            <p>Following BEM conventions for readability</p>
+            <a href="#">Learn More </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- section-7 -->
+  <section class="application">
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Applications are now open</h2>
+          <p>
+            We're now taking enrolments for Semester 1 — 2017. Stack graduates
+            are 40% more likely to find ongoing work in their chosen
+            profession.
+          </p>
+          <button type="submit" class="btn btn-primary mb-3">
+            Apply Now For 2017
+          </button>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- section-8 -->
+  <section class="course text-center">
+    <section class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+          <h2>What makes us different?</h2>
+          <p>
+            Our vision is for strong and resilient students where all have
+            adequate access to the support structures required to succeed.
+            Browse features below to find out more.
+          </p>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- section-9 -->
+  <section class="campus">
+    <section class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-6">
+          <img src="./images/education-4.jpg" alt="" class="img-fluid rounded">
+        </div>
+        <div class="col-lg-6 col-md-6 mt-5">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  Campus Life
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  Stack follows the BEM naming convention that focusses on logical code readability that is reflected in
+                  both the HTML and CSS. Interactive elements such as accordions and tabs follow the same markup
+                  patterns making rapid development easier for developers and beginners alike.
+                  <br> <br>
+                  Add to this the thoughtfully presented documentation, featuring code highlighting, snippets, class
+                  customizer explanation and you've got yourself one powerful value package.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  Study Support
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  Stack offers a clean and contemporary to suit a range of purposes from corporate, tech startup,
+                  marketing site to digital storefront. Elements have been designed to showcase content in a diverse yet
+                  consistent manner. <br><br> Multiple font and colour scheme options mean that dramatically altering
+                  the look of
+                  your site is just clicks away — Customizing your site in the included Variant Page Builder makes
+                  experimenting with styles and content arrangements dead simple.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  Qualification
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  Medium Rare is an elite author known for offering high-quality, high-value products backed by timely
+                  and personable support. Recognised and awarded by Envato on multiple occasions for producing
+                  consistently outstanding products, it's no wonder over 20,000 customers enjoy using Medium Rare
+                  templates.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- section-10 -->
+  <section class="students">
+    <div class="row g-0">
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="future">
+          <h4>Future Students</h4>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="current">
+          <h4>Current Students</h4>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 sm-mt-3">
+        <div class="alumni">
+          <h4>Alumni</h4>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- section-11 -->
+  <footer>
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+          <h6>Company</h6>
+          <ul>
+            <li><a href="#">About Company</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Work With Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+          <h6>Developers</h6>
+          <ul>
+            <li><a href="#">Developer Center</a></li>
+            <li><a href="#">API Reference</a></li>
+            <li><a href="#">Downloadss</a></li>
+            <li><a href="#">Tools</a></li>
+            <li><a href="#">Developer Blog</a></li>
+            <li><a href="#">Developer Forms</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+          <h6>Support</h6>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Live Chat</a></li>
+            <li><a href="#">Downloads</a></li>
+            <li><a href="#">Press Kit</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+          <h6>Locations</h6>
+          <ul>
+            <li><a href="#">Melbourne</a></li>
+            <li><a href="#">London</a></li>
+            <li><a href="#">New York</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">San Francisco</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="footer-info">
+          <span>© 2022 Stack Inc.</span>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Legal</a>
+        </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-end">
+          <div class="footer-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

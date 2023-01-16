@@ -1,0 +1,411 @@
+* {
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/education-1.jpg") center center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0px 0px 100px 0px;
+    position: relative;
+
+}
+
+.navbar .navbar-brand {
+    width: 8%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    padding: 20px 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #ebe3e3d9;
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: whitesmoke;
+}
+
+/* button */
+.btn-outline-secondary{
+    white-space: nowrap;
+}
+.btn-primary{
+    white-space: nowrap;
+}
+.btn-outline-secondary:hover {
+    border-color: white;
+    background: none;
+    transform: translateY(-2px);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+}
+button:hover{
+    
+}
+
+/* banner */
+.banner {
+    color: white;
+    margin-top: 100px;
+}
+
+.banner h1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.banner p {
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.banner-icon {
+    position: relative;
+}
+
+.banner-icon a {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    overflow: hidden;
+    text-decoration: none;
+    top: -6px;
+}
+
+.banner-icon a i {
+    padding: 14px;
+    color: black;
+    font-size: 15px;
+}
+
+.banner-icon label {
+    margin-left: 50px;
+}
+
+.banner-icon label span {
+    font-size: 14px;
+}
+
+/* section-2 */
+.approach .container {
+    padding: 80px 20px;
+}
+
+.approach-content {}
+
+.approach-content h2 {
+    font-size: 34px;
+    color:#808080;
+    margin-bottom: 20px;
+    
+}
+
+.approach-content p {
+    font-size: 25px;
+    font-weight: 400px;
+    color: #808080;
+    margin-bottom: 20px;
+    
+}
+
+.approach-content a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.approach-content a:hover {}
+
+.approach img {
+    border-radius: 4px;
+}
+
+/* section-3 */
+.course .container {
+    padding: 60px 20px;
+}
+
+.course h2 {
+    font-size: 35px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: #252525;
+    font-weight: 200px;
+}
+
+.course p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #808080;
+}
+
+/* section-4 */
+.keywords .container {
+    padding: 60px 20px;
+}
+input[type=text]{
+    width: 100%;
+    line-height: 15px;
+    padding: 10px 20px;
+    
+}
+input[type=text]:focus-visible{
+    outline: 1px solid skyblue;
+}
+.keywords .btn-primary{
+    padding: 5px 30px;
+}
+/* section-5 */
+
+/* section-6 */
+.feature .container {
+    padding: 60px 20px;
+}
+
+.feature-box {
+    border: 1px solid #ececec;
+    padding: 20px 60px;
+    margin-bottom: 20PX;
+
+}
+
+.feature-box h5 {
+    font-size: 16px;
+    color: black;
+
+}
+
+.feature-box p {
+    font-size: 14px;
+    color: #666666;
+}
+
+.feature-box a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* SECTION-7 */
+.application {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../images/education-3.jpg") center center;
+    /* background-image: url("../images/education-3.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: top;
+    padding: 80px 0px 100px 0px;
+}
+
+.application .container {
+    color: white;
+}
+
+.application h2 {
+    margin-bottom: 30px;
+}
+
+.application p {
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+/* section-8 */
+.course .container {
+    padding: 60px 10px;
+}
+
+.course h2 {
+    font-size: 35px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #252525;
+    font-weight: 200px;
+}
+
+.course p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #808080;
+}
+
+/* section-9 */
+.campus .container {
+    /* padding: 60px 0px; */
+}
+
+.campus img {
+    width: 90%;
+    box-shadow: 0 23px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* section-10 */
+/* students */
+.students {
+    padding: 80px 0px;
+}
+
+.future {
+    background-image: url("../images/education-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+}
+.future:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("../images/education-5.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+    background-position: center; 
+
+}
+.future h4 {
+    text-align: center;
+    transform: translateY(50px);
+    font-size: 20px;
+    color: white;
+}
+
+.future {
+    background-image: url("../images/education-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+}
+.future:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("../images/education-5.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+    background-position: center; 
+
+}
+.future h4 {
+    text-align: center;
+    transform: translateY(80px);
+    font-size: 20px;
+}
+.future:hover h4{
+    color: white;
+}
+
+/*  */
+.current {
+    background-image: url("../images/education-6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+}
+.current:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("../images/education-6.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+    background-position: center; 
+
+}
+.current h4 {
+    text-align: center;
+    transform: translateY(80px);
+    font-size: 20px;
+    color: white;
+}
+
+/*  */
+.alumni {
+    background-image: url("../images/education-7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+}
+.alumni:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("../images/education-7.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+    background-position: center; 
+
+}
+.alumni h4 {
+    text-align: center;
+    transform: translateY(80px);
+    font-size: 20px;
+    color: white;
+}
+
+
+/* footer */
+footer .container {
+    padding: 60px 20px;
+}
+
+footer h6 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    padding: 5px 0px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #808080;
+    font-size: 15px;
+
+}
+.footer-info span{
+    color: #808080;
+    font-size: 12px;
+}
+.footer-info a{
+    text-decoration: none;
+    color: #808080;
+    font-size: 12px;
+    margin-left: 10px;  
+}
+footer ul li a:hover {
+    color: black;
+    
+}
+
+.footer-links a {
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #808080;
+    font-size: 18px;
+}
+
+.footer-links a:hover{
+    color: black;
+}

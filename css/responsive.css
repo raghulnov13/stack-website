@@ -1,0 +1,24 @@
+@media (max-width:766px){
+    .navbar .navbar-brand {
+        width: 25%;
+    }
+    .navbar .navbar-brand img{
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler {
+        color: white;
+        border-color: white;
+    }
+    .navbar-light span.navbar-toggler-icon {
+        color: white;
+    }
+    .banner {
+        color: white;
+        margin-top: 100px;
+    }
+    .banner h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+}
